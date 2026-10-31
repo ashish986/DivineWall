@@ -1,0 +1,456 @@
+import os, json
+
+dest_cdn = r'C:\Users\ashis\.gemini\antigravity-ide\scratch\divine_wallpapers_cdn'
+api_dir = os.path.join(dest_cdn, 'api')
+os.makedirs(api_dir, exist_ok=True)
+json_path = os.path.join(api_dir, 'wallpapers.json')
+
+cdn_base = 'https://raw.githubusercontent.com/ashish986/divine-wallpapers-cdn/main'
+
+wallpapers = [
+    # Krishna
+    {
+        'id': 'k1',
+        'imageUrl': f'{cdn_base}/wallpapers/krishna/01.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/krishna/thumb_01.png',
+        'tab': 'aesthetic',
+        'category': 'krishna',
+        'theme': 'neon',
+        'themeColors': {'primary': '#00E5FF', 'accent': '#FFD700', 'background': '#000000'},
+        'shlokHindi': 'कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥',
+        'shlokHinglish': 'Golden Flute Silhouette: Side profile with glowing Mor Pankh, sapphire rim light & radiant bansuri.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'k2',
+        'imageUrl': f'{cdn_base}/wallpapers/krishna/02.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/krishna/thumb_02.png',
+        'tab': 'aesthetic',
+        'category': 'krishna',
+        'theme': 'neon',
+        'themeColors': {'primary': '#00B0FF', 'accent': '#76FF03', 'background': '#000000'},
+        'shlokHindi': 'कस्तूरीतिलकं ललाटपटले वक्षःस्थले कौस्तुभं नासाग्रे वरमौक्तिकं करतले वेणुं करे कङ्कणम्॥',
+        'shlokHinglish': 'Divine Smile Close-up: Radiant eyes, glowing Vaishnav tilak & turquoise peacock feather on pure black.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'k3',
+        'imageUrl': f'{cdn_base}/wallpapers/krishna/03.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/krishna/thumb_03.png',
+        'tab': 'aesthetic',
+        'category': 'krishna',
+        'theme': 'neon',
+        'themeColors': {'primary': '#2979FF', 'accent': '#FFD700', 'background': '#000000'},
+        'shlokHindi': 'यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥',
+        'shlokHinglish': 'Yamuna Ghat Full Moon: Playing flute on ancient ghat steps, giant glowing moon & floating diyas.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'k4',
+        'imageUrl': f'{cdn_base}/wallpapers/krishna/04.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/krishna/thumb_04.png',
+        'tab': 'aesthetic',
+        'category': 'krishna',
+        'theme': 'neon',
+        'themeColors': {'primary': '#00E5FF', 'accent': '#FFC400', 'background': '#000000'},
+        'shlokHindi': 'सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज। अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः॥',
+        'shlokHinglish': 'Kadamba Tree Night: Full body leaning serenely under giant mystical tree glowing with starlight.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'k5',
+        'imageUrl': f'{cdn_base}/wallpapers/krishna/05.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/krishna/thumb_05.png',
+        'tab': 'aesthetic',
+        'category': 'krishna',
+        'theme': 'neon',
+        'themeColors': {'primary': '#651FFF', 'accent': '#00E5FF', 'background': '#000000'},
+        'shlokHindi': 'मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु। मामेवैष्यसि सत्यं ते प्रतिजाने प्रियोऽसि मे॥',
+        'shlokHinglish': 'Maha Raas Cosmic Vortex: Meditating in galaxy core, glowing spiral nebulae & divine aura ring.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+
+    # Shiva
+    {
+        'id': 's1',
+        'imageUrl': f'{cdn_base}/wallpapers/shiva/01.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/shiva/thumb_01.png',
+        'tab': 'aesthetic',
+        'category': 'shiva',
+        'theme': 'neon',
+        'themeColors': {'primary': '#00E5FF', 'accent': '#2979FF', 'background': '#000000'},
+        'shlokHindi': 'ॐ नमः शिवाय। कर्पूरगौरं करुणावतारं संसारसारम्॥',
+        'shlokHinglish': 'Dark Rim-Light Trishul & Damru: Cyan-white neon contour on pure pitch black AMOLED.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 's2',
+        'imageUrl': f'{cdn_base}/wallpapers/shiva/02.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/shiva/thumb_02.png',
+        'tab': 'aesthetic',
+        'category': 'shiva',
+        'theme': 'neon',
+        'themeColors': {'primary': '#00B0FF', 'accent': '#00E5FF', 'background': '#000000'},
+        'shlokHindi': 'त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम्। उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय मामृतात्॥',
+        'shlokHinglish': 'Third Eye Awakening: Fiery golden-amber third eye flame with crescent moon on jata.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 's3',
+        'imageUrl': f'{cdn_base}/wallpapers/shiva/03.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/shiva/thumb_03.png',
+        'tab': 'aesthetic',
+        'category': 'shiva',
+        'theme': 'neon',
+        'themeColors': {'primary': '#00E5FF', 'accent': '#76FF03', 'background': '#000000'},
+        'shlokHindi': 'जटाटवीगलज्जलप्रवाहपावितस्थले गलेऽवलम्ब्य लम्बितां भुजङ्गतुङ्गमालिकाम्॥',
+        'shlokHinglish': 'Serpent Vasuki & Crescent Moon: Coiled neon green glowing cobra on Mahadev neck.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 's4',
+        'imageUrl': f'{cdn_base}/wallpapers/shiva/04.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/shiva/thumb_04.png',
+        'tab': 'aesthetic',
+        'category': 'shiva',
+        'theme': 'neon',
+        'themeColors': {'primary': '#651FFF', 'accent': '#00E5FF', 'background': '#000000'},
+        'shlokHindi': 'कैलासशिखरस्थाय भालचन्द्राय शम्भवे। नमो नीलकण्ठाय महादेवाय ते नमः॥',
+        'shlokHinglish': 'Kailash Peak Dhyan: Meditating in padmasana on mountain peak under swirling galaxy aurora.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 's5',
+        'imageUrl': f'{cdn_base}/wallpapers/shiva/05.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/shiva/thumb_05.png',
+        'tab': 'aesthetic',
+        'category': 'shiva',
+        'theme': 'neon',
+        'themeColors': {'primary': '#FF9100', 'accent': '#00E5FF', 'background': '#000000'},
+        'shlokHindi': 'डमरूध्वनिसंयुक्तां ताण्डवनृत्यप्रियां सदा। नमामि शङ्करं देवं सर्वकामफलप्रदम्॥',
+        'shlokHinglish': 'Cosmic Nataraja Tandava: Fiery ring of neon flames, dynamic cosmic dance of creation.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+
+    # Ganesh
+    {
+        'id': 'g1',
+        'imageUrl': f'{cdn_base}/wallpapers/ganesh/01.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/ganesh/thumb_01.png',
+        'tab': 'aesthetic',
+        'category': 'ganesh',
+        'theme': 'cosmic',
+        'themeColors': {'primary': '#FF9900', 'accent': '#FFD700', 'background': '#000000'},
+        'shlokHindi': 'एकदन्ताय विद्महे वक्रतुण्डाय धीमहि तन्नो दन्तिः प्रचोदयात्॥',
+        'shlokHinglish': 'Cosmic Night Rim-Light: Golden-saffron outline emerging from pitch black darkness & stars.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'g2',
+        'imageUrl': f'{cdn_base}/wallpapers/ganesh/02.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/ganesh/thumb_02.png',
+        'tab': 'aesthetic',
+        'category': 'ganesh',
+        'theme': 'shadow',
+        'themeColors': {'primary': '#FFA000', 'accent': '#FFE082', 'background': '#000000'},
+        'shlokHindi': 'गजाननं भूतगणादिसेवितं कपित्थजम्बूफलचारुभक्षणम्। उमासुतं शोकविनाशकारकं नमामि विघ्नेश्वरपादपङ्कजम्॥',
+        'shlokHinglish': 'Shadow of the God: Majestic celestial silhouette glowing above temple with tiny mushak.',
+        'isFeatured': False,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'g3',
+        'imageUrl': f'{cdn_base}/wallpapers/ganesh/03.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/ganesh/thumb_03.png',
+        'tab': 'aesthetic',
+        'category': 'ganesh',
+        'theme': 'lotus',
+        'themeColors': {'primary': '#FF5722', 'accent': '#E040FB', 'background': '#000000'},
+        'shlokHindi': 'श्री गणेशाय नमः। सर्वविघ्नहर्ता मंगलकर्ता॥',
+        'shlokHinglish': 'Lotus Galaxy: Orange, gold & magenta neon line-art on giant cosmic glowing lotus.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'g4',
+        'imageUrl': f'{cdn_base}/wallpapers/ganesh/04.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/ganesh/thumb_04.png',
+        'tab': 'classic',
+        'category': 'ganesh',
+        'theme': 'festival',
+        'themeColors': {'primary': '#FF6F00', 'accent': '#FFD54F', 'background': '#FFFDF5'},
+        'shlokHindi': 'वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ। निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥',
+        'shlokHinglish': 'Festival Grandeur: Ganesh Chaturthi royal throne, silk dhoti, modaks & golden halo.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'g5',
+        'imageUrl': f'{cdn_base}/wallpapers/ganesh/05.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/ganesh/thumb_05.png',
+        'tab': 'classic',
+        'category': 'ganesh',
+        'theme': 'cute',
+        'themeColors': {'primary': '#FF4081', 'accent': '#FFD700', 'background': '#FFF5F8'},
+        'shlokHindi': 'गणपति बप्पा मोरया, मंगल मूर्ति मोरया 🐘',
+        'shlokHinglish': 'Cute & Calm Bal Ganesh: Sweet smile holding modak, glowing lotus & pastel cosmic clouds.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+
+    # Ram
+    {
+        'id': 'r1',
+        'imageUrl': f'{cdn_base}/wallpapers/ram/01.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/ram/thumb_01.png',
+        'tab': 'aesthetic',
+        'category': 'ram',
+        'theme': 'cosmic',
+        'themeColors': {'primary': '#FF9900', 'accent': '#FFD700', 'background': '#000000'},
+        'shlokHindi': 'रामो राजमणिः सदा विजयते रामं रमेशं भजे।',
+        'shlokHinglish': 'Dark Rim-Light Kodanda: Golden-saffron outline emerging from darkness holding the sacred bow.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'r2',
+        'imageUrl': f'{cdn_base}/wallpapers/ram/02.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/ram/thumb_02.png',
+        'tab': 'aesthetic',
+        'category': 'ram',
+        'theme': 'shadow',
+        'themeColors': {'primary': '#FFA000', 'accent': '#FFE082', 'background': '#000000'},
+        'shlokHindi': 'मर्यादा पुरुषोत्तम प्रभु श्री राम॥',
+        'shlokHinglish': 'Shadow of Ayodhya: Noble stance with bow on shoulder and glowing temple spire silhouette.',
+        'isFeatured': False,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'r3',
+        'imageUrl': f'{cdn_base}/wallpapers/ram/03.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/ram/thumb_03.png',
+        'tab': 'aesthetic',
+        'category': 'ram',
+        'theme': 'kodanda',
+        'themeColors': {'primary': '#FF6F00', 'accent': '#FFD54F', 'background': '#000000'},
+        'shlokHindi': 'धीरोदात्तो गुणोत्तरः। स कोऽस्मिन् साम्प्रतं लोके गुणवान् कश्च वीर्यवान्॥',
+        'shlokHinglish': 'Neon Kodanda Radiance: Fiery saffron-orange and electric gold line-art with glowing halo ring.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'r4',
+        'imageUrl': f'{cdn_base}/wallpapers/ram/04.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/ram/thumb_04.png',
+        'tab': 'classic',
+        'category': 'ram',
+        'theme': 'saryu',
+        'themeColors': {'primary': '#E65100', 'accent': '#FFD700', 'background': '#FFFDF5'},
+        'shlokHindi': 'रामो राजमणिः सदा विजयते रामं रमेशं भजे रामेणाभिहता निशाचरचमू रामाय तस्मै नमः।',
+        'shlokHinglish': 'Ayodhya Saryu Ghat: Divine blue-complexioned Lord Ram with Kodanda bow at sunset.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'r5',
+        'imageUrl': f'{cdn_base}/wallpapers/ram/05.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/ram/thumb_05.png',
+        'tab': 'classic',
+        'category': 'ram',
+        'theme': 'darbar',
+        'themeColors': {'primary': '#D84315', 'accent': '#FFD54F', 'background': '#FFF8E1'},
+        'shlokHindi': 'मंगल भवन अमंगल हारी। द्रवहु सुदसरथ अजिर बिहारी॥',
+        'shlokHinglish': 'Ayodhya Ram Darbar: Majestic royal court with Sita ji, Lakshman ji, and Hanuman ji.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+
+    # Durga
+    {
+        'id': 'd1',
+        'imageUrl': f'{cdn_base}/wallpapers/durga/01.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/durga/thumb_01.png',
+        'tab': 'aesthetic',
+        'category': 'durga',
+        'theme': 'shakti',
+        'themeColors': {'primary': '#FF1744', 'accent': '#FFD700', 'background': '#000000'},
+        'shlokHindi': 'सर्वमङ्गलमाङ्गल्ये शिवे सर्वार्थसाधिके। शरण्ये त्र्यम्बके गौरि नारायणि नमोऽस्तु ते॥',
+        'shlokHinglish': 'Dark Rim-Light Divine Face: Red-gold rim light, golden mukut, bindi & trishul on pitch black AMOLED.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'd2',
+        'imageUrl': f'{cdn_base}/wallpapers/durga/02.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/durga/thumb_02.png',
+        'tab': 'aesthetic',
+        'category': 'durga',
+        'theme': 'shakti',
+        'themeColors': {'primary': '#D50000', 'accent': '#FFAB00', 'background': '#000000'},
+        'shlokHindi': 'या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता। नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥',
+        'shlokHinglish': 'Dark Rim-Light Simhavahini: Maa Durga seated calmly on noble lion with golden-red outlines.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'd4',
+        'imageUrl': f'{cdn_base}/wallpapers/durga/04.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/durga/thumb_04.png',
+        'tab': 'classic',
+        'category': 'durga',
+        'theme': 'classic',
+        'themeColors': {'primary': '#C2185B', 'accent': '#FFD700', 'background': '#FFF5F8'},
+        'shlokHindi': 'जयन्ती मङ्गला काली भद्रकाली कपालिनी। दुर्गा क्षमा शिवा धात्री स्वाहा स्वधा नमोऽस्तु ते॥',
+        'shlokHinglish': 'Classic Royal Mahishasuramardini: Magnificent traditional painting with 8 arms, lion & golden aura.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+
+    # Hanuman Neon (1-10)
+    {
+        'id': 'hn1',
+        'imageUrl': f'{cdn_base}/wallpapers/hanuman_neon/01.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/hanuman_neon/thumb_01.png',
+        'tab': 'aesthetic',
+        'category': 'hanuman',
+        'theme': 'neon',
+        'themeColors': {'primary': '#FF6D00', 'accent': '#FFD600', 'background': '#000000'},
+        'shlokHindi': 'अतुलितबलधामं हेमशैलाभदेहं दनुजवनकृशानुं ज्ञानिनामग्रगण्यम्॥',
+        'shlokHinglish': 'Neon Silhouette with Gada: Fiery saffron contour holding golden mace on pitch black.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'hn2',
+        'imageUrl': f'{cdn_base}/wallpapers/hanuman_neon/02.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/hanuman_neon/thumb_02.png',
+        'tab': 'aesthetic',
+        'category': 'hanuman',
+        'theme': 'neon',
+        'themeColors': {'primary': '#FF9100', 'accent': '#FFEA00', 'background': '#000000'},
+        'shlokHindi': 'मनोजवं मारुततुल्यवेगं जितेन्द्रियं बुद्धिमतां वरिष्ठम्॥',
+        'shlokHinglish': 'Pranam Mudra Golden Aura: Devotional folded hands posture with glowing lotus background.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'hn3',
+        'imageUrl': f'{cdn_base}/wallpapers/hanuman_neon/03.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/hanuman_neon/thumb_03.png',
+        'tab': 'aesthetic',
+        'category': 'hanuman',
+        'theme': 'neon',
+        'themeColors': {'primary': '#FF3D00', 'accent': '#FFD600', 'background': '#000000'},
+        'shlokHindi': 'वातात्मजं वानरयूथमुख्यं श्रीरामदूतं शरणं प्रपद्ये॥',
+        'shlokHinglish': 'Cosmic Colossal Shadow: Giant glowing guardian watching serenely over starry cosmos.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'hn4',
+        'imageUrl': f'{cdn_base}/wallpapers/hanuman_neon/04.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/hanuman_neon/thumb_04.png',
+        'tab': 'aesthetic',
+        'category': 'hanuman',
+        'theme': 'neon',
+        'themeColors': {'primary': '#FF6D00', 'accent': '#00E5FF', 'background': '#000000'},
+        'shlokHindi': 'लाय सजीवन लखन जियाये। श्रीरघुबीर हरषि उर लाये॥',
+        'shlokHinglish': 'Pawanputra Sanjeevani Udan: Carrying glowing mountain across the night sky.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'hn5',
+        'imageUrl': f'{cdn_base}/wallpapers/hanuman_neon/05.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/hanuman_neon/thumb_05.png',
+        'tab': 'aesthetic',
+        'category': 'hanuman',
+        'theme': 'neon',
+        'themeColors': {'primary': '#FF9E80', 'accent': '#FFD700', 'background': '#000000'},
+        'shlokHindi': 'महाबीर बिक्रम बजरंगी। कुमति निवार सुमति के संगी॥',
+        'shlokHinglish': 'Veera Hanuman Sunset: Mighty stance holding sacred golden gada on shoulder.',
+        'isFeatured': False,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'hn6',
+        'imageUrl': f'{cdn_base}/wallpapers/hanuman_neon/06.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/hanuman_neon/thumb_06.png',
+        'tab': 'aesthetic',
+        'category': 'hanuman',
+        'theme': 'neon',
+        'themeColors': {'primary': '#FF5722', 'accent': '#FFD600', 'background': '#000000'},
+        'shlokHindi': 'रामदूत अतुलित बलधामा। अंजनिपुत्र पवनसुत नामा॥',
+        'shlokHinglish': 'AMOLED Glowing Tilak Contour: Minimal dark silhouette with radiant white-red tilak.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'hn7',
+        'imageUrl': f'{cdn_base}/wallpapers/hanuman_neon/07.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/hanuman_neon/thumb_07.png',
+        'tab': 'aesthetic',
+        'category': 'hanuman',
+        'theme': 'neon',
+        'themeColors': {'primary': '#FF6D00', 'accent': '#FFAB00', 'background': '#000000'},
+        'shlokHindi': 'जय जय जय हनुमान गोसाईं। कृपा करहु गुरुदेव की नाईं॥',
+        'shlokHinglish': 'Dark Warrior Neon Gada: Fiery eyes, glowing tilak and protective aura.',
+        'isFeatured': True,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'hn8',
+        'imageUrl': f'{cdn_base}/wallpapers/hanuman_neon/08.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/hanuman_neon/thumb_08.png',
+        'tab': 'aesthetic',
+        'category': 'hanuman',
+        'theme': 'neon',
+        'themeColors': {'primary': '#FFA000', 'accent': '#FFD54F', 'background': '#000000'},
+        'shlokHindi': 'हाथ बज्र औ ध्वजा बिराजै। कांधे मूँज जनेऊ साजै॥',
+        'shlokHinglish': 'AMOLED Sacred Golden Gada: Minimal black background with divine floating embers.',
+        'isFeatured': False,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'hn9',
+        'imageUrl': f'{cdn_base}/wallpapers/hanuman_neon/09.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/hanuman_neon/thumb_09.png',
+        'tab': 'aesthetic',
+        'category': 'hanuman',
+        'theme': 'neon',
+        'themeColors': {'primary': '#FFAB00', 'accent': '#FF6D00', 'background': '#000000'},
+        'shlokHindi': 'कंचन बरन बिराज सुबेसा। कानन कुंडल कुंचित केसा॥',
+        'shlokHinglish': 'Bhakti Pranam Lotus Aura: Pure devotion with folded hands in temple light.',
+        'isFeatured': False,
+        'createdAt': '2026-10-31T12:00:00Z'
+    },
+    {
+        'id': 'hn10',
+        'imageUrl': f'{cdn_base}/wallpapers/hanuman_neon/10.png',
+        'thumbnailUrl': f'{cdn_base}/wallpapers/hanuman_neon/thumb_10.png',
+        'tab': 'aesthetic',
+        'category': 'hanuman',
+        'theme': 'neon',
+        'themeColors': {'primary': '#FF6F00', 'accent': '#FFD54F', 'background': '#000000'},
+        'shlokHindi': 'संकट कटै मिटै सब पीरा। जो सुमिरै हनुमत बलबीरा॥',
+        'shlokHinglish': 'Celestial Guardian Dusk: Watching peacefully over creation from high mountain ridge.',
+        'isFeatured': False,
+        'createdAt': '2026-10-31T12:00:00Z'
+    }
+]
+
+with open(json_path, 'w', encoding='utf-8') as f:
+    json.dump(wallpapers, f, indent=2, ensure_ascii=False)
+
+print(f'Successfully created {json_path} with {len(wallpapers)} wallpapers!')
