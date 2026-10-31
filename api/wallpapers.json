@@ -1,5 +1,22 @@
 [
   {
+    "id": "k10",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/krishna/10.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/krishna/thumb_10.png",
+    "tab": "aesthetic",
+    "category": "krishna",
+    "theme": "neon",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#00E5FF",
+      "background": "#000000"
+    },
+    "shlokHindi": "सच्चिदानन्दरूपाय विश्वोत्पत्यादिहेतवे। तापत्रयविनाशाय श्रीकृष्णाय वयं नुमः॥",
+    "shlokHinglish": "Minimalist Feather & Flute: Golden Mor Pankh crossed with glowing blue bansuri on AMOLED black.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T16:35:00Z"
+  },
+  {
     "id": "k9",
     "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/krishna/09.png",
     "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/krishna/thumb_09.png",
