@@ -1,5 +1,73 @@
 [
   {
+    "id": "hn14",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/hanuman_neon/14.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/hanuman_neon/thumb_14.png",
+    "tab": "aesthetic",
+    "category": "hanuman",
+    "theme": "neon",
+    "themeColors": {
+      "primary": "#FF9900",
+      "accent": "#00E5FF",
+      "background": "#000000"
+    },
+    "shlokHindi": "संकट कटै मिटै सब पीरा । जो सुमिरै हनुमत बलबीरा ॥ जै जै जै हनुमान गोसाईं । कृपा करहु गुरुदेव की नाईं ॥",
+    "shlokHinglish": "Warrior March Hanuman: Marching fearlessly with fiery radiant Gada illuminating the cosmos.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T16:45:00Z"
+  },
+  {
+    "id": "hn13",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/hanuman_neon/13.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/hanuman_neon/thumb_13.png",
+    "tab": "aesthetic",
+    "category": "hanuman",
+    "theme": "neon",
+    "themeColors": {
+      "primary": "#FF007F",
+      "accent": "#00E5FF",
+      "background": "#000000"
+    },
+    "shlokHindi": "महावीर विक्रम बजरंगी । कुमति निवार सुमति के संगी ॥ कंचन बरन बिराज सुबेसा । कानन कुंडल कुंचित केसा ॥",
+    "shlokHinglish": "Gada Veer Hanuman: Muscular neon cyan silhouette with glowing magenta Gada resting on shoulder.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T16:45:00Z"
+  },
+  {
+    "id": "hn12",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/hanuman_neon/12.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/hanuman_neon/thumb_12.png",
+    "tab": "aesthetic",
+    "category": "hanuman",
+    "theme": "neon",
+    "themeColors": {
+      "primary": "#00E5FF",
+      "accent": "#FF007F",
+      "background": "#000000"
+    },
+    "shlokHindi": "अतुलितबलधामं हेमशैलाभदेहं दनुजवनकृशानुं ज्ञानिनामग्रगण्यम् । सकलगुणनिधानं वानराणामधीशं रघुपतिप्रियभक्तं वातजातं नमामि ॥",
+    "shlokHinglish": "Abhaya Mudra Blessing: Neon cyan & magenta Bajrangbali radiating divine protection and cosmic strength.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T16:45:00Z"
+  },
+  {
+    "id": "hn11",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/hanuman_neon/11.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/hanuman_neon/thumb_11.png",
+    "tab": "aesthetic",
+    "category": "hanuman",
+    "theme": "neon",
+    "themeColors": {
+      "primary": "#FF5500",
+      "accent": "#FFD700",
+      "background": "#000000"
+    },
+    "shlokHindi": "मनोजवं मारुततुल्यवेगं जितेन्द्रियं बुद्धिमतां वरिष्ठम् । वातात्मजं वानरयूथमुख्यं श्रीरामदूतं शरणं प्रपद्ये ॥",
+    "shlokHinglish": "Fiery Halo Dhyan: Bajrangbali in deep serene meditation with radiant solar halo and golden tilak.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T16:45:00Z"
+  },
+  {
     "id": "k10",
     "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/krishna/10.png",
     "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/krishna/thumb_10.png",
