@@ -68,40 +68,6 @@
     "createdAt": "2026-10-31T16:45:00Z"
   },
   {
-    "id": "k10",
-    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/krishna/10.png",
-    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/krishna/thumb_10.png",
-    "tab": "aesthetic",
-    "category": "krishna",
-    "theme": "neon",
-    "themeColors": {
-      "primary": "#FFD700",
-      "accent": "#00E5FF",
-      "background": "#000000"
-    },
-    "shlokHindi": "सच्चिदानन्दरूपाय विश्वोत्पत्यादिहेतवे। तापत्रयविनाशाय श्रीकृष्णाय वयं नुमः॥",
-    "shlokHinglish": "Minimalist Feather & Flute: Golden Mor Pankh crossed with glowing blue bansuri on AMOLED black.",
-    "isFeatured": true,
-    "createdAt": "2026-10-31T16:35:00Z"
-  },
-  {
-    "id": "k9",
-    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/krishna/09.png",
-    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/krishna/thumb_09.png",
-    "tab": "aesthetic",
-    "category": "krishna",
-    "theme": "neon",
-    "themeColors": {
-      "primary": "#00E5FF",
-      "accent": "#00E676",
-      "background": "#000000"
-    },
-    "shlokHindi": "वेणुं क्वणन्तमरविन्ददलायताक्षं बर्हावतंसमसिताम्बुदसुन्दराङ्गम्। कन्दर्पकोटि कमनीय विशेषशोभं गोविन्दमादिपुरुषं तमहं भजामि॥",
-    "shlokHinglish": "Celestial Flute & Mor Pankh: Electric neon blue bansuri with iridescent peacock feather on AMOLED black.",
-    "isFeatured": true,
-    "createdAt": "2026-10-31T16:30:00Z"
-  },
-  {
     "id": "k8",
     "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/krishna/08.png",
     "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/krishna/thumb_08.png",
@@ -132,23 +98,6 @@
     },
     "shlokHindi": "अधरं मधुरं वदनं मधुरं नयनं मधुरं हसितं मधुरम्। हृदयं मधुरं गमनं मधुरं मधुराधिपतेरखिलं मधुरम्॥",
     "shlokHinglish": "Bansuri Aura Silhouette: Krishna playing flute amidst cosmic blue nebula & golden starlight.",
-    "isFeatured": true,
-    "createdAt": "2026-10-31T16:30:00Z"
-  },
-  {
-    "id": "k6",
-    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/krishna/06.png",
-    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/krishna/thumb_06.png",
-    "tab": "aesthetic",
-    "category": "krishna",
-    "theme": "neon",
-    "themeColors": {
-      "primary": "#FFD700",
-      "accent": "#00B0FF",
-      "background": "#000000"
-    },
-    "shlokHindi": "श्रीकृष्ण गोविन्द हरे मुरारे हे नाथ नारायण वासुदेव।",
-    "shlokHinglish": "Golden Krishna Typography: Radiant golden name with neon blue flute & peacock feather.",
     "isFeatured": true,
     "createdAt": "2026-10-31T16:30:00Z"
   },
