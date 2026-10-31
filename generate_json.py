@@ -5,7 +5,7 @@ api_dir = os.path.join(dest_cdn, 'api')
 os.makedirs(api_dir, exist_ok=True)
 json_path = os.path.join(api_dir, 'wallpapers.json')
 
-cdn_base = 'https://raw.githubusercontent.com/ashish986/divine-wallpapers-cdn/main'
+cdn_base = 'https://raw.githubusercontent.com/ashish986/DivineWall/main'
 
 wallpapers = [
     # Krishna
