@@ -1,5 +1,192 @@
 [
   {
+    "id": "sw1",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/saraswati/01.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/saraswati/thumb_01.png",
+    "tab": "classic",
+    "category": "saraswati",
+    "theme": "divine_glow",
+    "themeColors": {
+      "primary": "#4FC3F7",
+      "accent": "#FFFFFF",
+      "background": "#F0F8FF"
+    },
+    "shlokHindi": "या कुन्देन्दुतुषारहारधवला या शुभ्रवस्त्रावृता । या वीणावरदण्डमण्डितकरा या श्वेतपद्मासना ॥ सा मां पातु सरस्वती भगवती निःशेषजाड्यापहा ॥",
+    "shlokHinglish": "Devi Saraswati: Goddess of divine wisdom, arts, and sacred music adorned in white lotus serenity.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T17:55:00Z"
+  },
+  {
+    "id": "sw2",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/saraswati/02.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/saraswati/thumb_02.png",
+    "tab": "aesthetic",
+    "category": "saraswati",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#BA68C8",
+      "accent": "#FFFFFF",
+      "background": "#0B0813"
+    },
+    "shlokHindi": "सरस्वति नमस्तुभ्यं वरदे कामरूपिणि । विद्यारम्भं करिष्यामि सिद्धिर्भवतु मे सदा ॥",
+    "shlokHinglish": "Cosmic Veena Saraswati: Radiant purple cosmic aura illuminating divine intellect and creative inspiration.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T17:55:00Z"
+  },
+  {
+    "id": "lk1",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/lakshmi/01.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/lakshmi/thumb_01.png",
+    "tab": "classic",
+    "category": "lakshmi",
+    "theme": "golden_hour",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#FF80AB",
+      "background": "#2B1B0E"
+    },
+    "shlokHindi": "नमस्तेऽस्तु महामाये श्रीपीठे सुरपूजिते । शङ्खचक्रगदाहस्ते महालक्ष्मि नमोऽस्तु ते ॥",
+    "shlokHinglish": "Mahalakshmi: Divine mother of auspicious wealth, spiritual abundance, and fortune on sacred pink lotus.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T17:55:00Z"
+  },
+  {
+    "id": "h6",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/hanuman/06.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/hanuman/thumb_06.png",
+    "tab": "classic",
+    "category": "hanuman",
+    "theme": "divine_glow",
+    "themeColors": {
+      "primary": "#FF9900",
+      "accent": "#FFD700",
+      "background": "#FDF8F0"
+    },
+    "shlokHindi": "अतुलितबलधामं हेमशैलाभदेहं दनुजवनकृशानुं ज्ञानिनामग्रगण्यम् । सकलगुणनिधानं वानराणामधीशं रघुपतिप्रियभक्तं वातजातं नमामि ॥",
+    "shlokHinglish": "Dhyan Hanuman: Bajrangbali in deep serene devotion and prayer adorned in sacred marigold garland.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T17:55:00Z"
+  },
+  {
+    "id": "s6",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/shiv/06.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/shiv/thumb_06.png",
+    "tab": "classic",
+    "category": "shiv",
+    "theme": "minimalist",
+    "themeColors": {
+      "primary": "#64B5F6",
+      "accent": "#FFFFFF",
+      "background": "#EDF2F7"
+    },
+    "shlokHindi": "कर्पूरगौरं करुणावतारं संसारसारम् भुजगेन्द्रहारम् । सदावसन्तं हृदयारविन्दे भवं भवानीसहितं नमामि ॥",
+    "shlokHinglish": "Kailash Dhyan Shiva: Mahadev meditating atop snow-crowned Himalayas on sacred tiger skin with divine Trishul.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T17:55:00Z"
+  },
+  {
+    "id": "s7",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/shiv/07.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/shiv/thumb_07.png",
+    "tab": "aesthetic",
+    "category": "shiv",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#00E5FF",
+      "accent": "#7C4DFF",
+      "background": "#070C15"
+    },
+    "shlokHindi": "ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ॥",
+    "shlokHinglish": "Cosmic Dhyan Shiva: Serene Lord Shiva in deep celestial meditation with radiant crescent moon and cosmic mist.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T17:55:00Z"
+  },
+  {
+    "id": "sn11",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/shiv_neon/11.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/shiv_neon/thumb_11.png",
+    "tab": "aesthetic",
+    "category": "shiv",
+    "theme": "neon",
+    "themeColors": {
+      "primary": "#B388FF",
+      "accent": "#7C4DFF",
+      "background": "#000000"
+    },
+    "shlokHindi": "जटाटवीगलज्जलप्रवाहपावितस्थले गलेऽवलम्ब्य लम्बितां भुजङ्गतुङ्गमालिकाम् । डमड्डमड्डमड्डमन्निनादवडड्डमर्वयं चकार चण्डताण्डवं तनोतु नः शिवः शिवम् ॥",
+    "shlokHinglish": "Trishul Tandav Shiva: Powerful neon violet luminescence with divine serpent, sacred moon, and Trishul.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T17:55:00Z"
+  },
+  {
+    "id": "s8",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/shiv/08.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/shiv/thumb_08.png",
+    "tab": "aesthetic",
+    "category": "shiv",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#7C4DFF",
+      "accent": "#00E5FF",
+      "background": "#05030A"
+    },
+    "shlokHindi": "ॐ नमः शिवाय । नागेन्द्रहाराय त्रिलोचनाय भस्माङ्गरागाय महेश्वराय । नित्याय शुद्धाय दिगम्बराय तस्मै नकाराय नमः शिवाय ॥",
+    "shlokHinglish": "Adiyogi Shiva: The first yogi standing monumental amidst cosmic nebulae with glowing crescent moon aura.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T17:55:00Z"
+  },
+  {
+    "id": "r8",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/ram/08.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/ram/thumb_08.png",
+    "tab": "aesthetic",
+    "category": "ram",
+    "theme": "neon",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#00E5FF",
+      "background": "#000000"
+    },
+    "shlokHindi": "श्री रामचन्द्र कृपालु भजु मन हरण भवभय दारुणम् । नवकंज लोचन, कंज मुख, कर कंज, पद कंजारुणम् ॥",
+    "shlokHinglish": "Golden Radiant Kodanda: Shri Ram standing adorned in celestial golden ornaments and divine bow.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T17:48:00Z"
+  },
+  {
+    "id": "r7",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/ram/07.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/ram/thumb_07.png",
+    "tab": "aesthetic",
+    "category": "ram",
+    "theme": "neon",
+    "themeColors": {
+      "primary": "#00E5FF",
+      "accent": "#FF007F",
+      "background": "#000000"
+    },
+    "shlokHindi": "रामाय रामभद्राय रामचन्द्राय वेधसे । रघुनाथाय नाथाय सीतायाः पतये नमः ॥",
+    "shlokHinglish": "Neon Archer Avatar: Shri Ram with radiant arrows and glowing tilak radiating cosmic tranquility.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T17:47:00Z"
+  },
+  {
+    "id": "r6",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/ram/06.png",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/ram/thumb_06.png",
+    "tab": "aesthetic",
+    "category": "ram",
+    "theme": "neon",
+    "themeColors": {
+      "primary": "#00E5FF",
+      "accent": "#FF4081",
+      "background": "#000000"
+    },
+    "shlokHindi": "लोकाभिरामं रणरंगधीरं राजीवनेत्रं रघुवंशनाथम् । कारुण्यरूपं करुणाकरं तं श्रीरामचन्द्रं शरणं प्रपद्ये ॥",
+    "shlokHinglish": "Maryada Purushottam: Supreme warrior of righteousness in celestial neon aura on cosmic stars.",
+    "isFeatured": true,
+    "createdAt": "2026-10-31T17:46:00Z"
+  },
+  {
     "id": "hn14",
     "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/hanuman_neon/14.png",
     "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/hanuman_neon/thumb_14.png",
