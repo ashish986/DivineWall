@@ -1,5 +1,702 @@
 [
   {
+    "id": "cosmic_01",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/01.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_01.jpg",
+    "tab": "aesthetic",
+    "category": "ram",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FF9900",
+      "accent": "#00E5FF",
+      "background": "#060A17"
+    },
+    "shlokHindi": "आपदामपहर्तारं दातारं सर्वसम्पदाम्। लोकाभिरामं श्रीरामं भूयो भूयो नमाम्यहम्॥",
+    "shlokHinglish": "Ram Hanuman Bhakti: Divine blessing with glowing lotus diya and cosmic starlight.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_02",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/02.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_02.jpg",
+    "tab": "aesthetic",
+    "category": "krishna",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#00B0FF",
+      "accent": "#FF4081",
+      "background": "#080414"
+    },
+    "shlokHindi": "हे कृष्ण करुणासिन्धो दीनबन्धो जगत्पते। गोपिकेश गोपिकाकान्त राधाकान्त नमोऽस्तु ते॥",
+    "shlokHinglish": "Radha Krishna Full Moon: Playing flute with blooming water lotuses and mystical stardust.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_03",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/03.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_03.jpg",
+    "tab": "aesthetic",
+    "category": "krishna",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#7C4DFF",
+      "accent": "#00E5FF",
+      "background": "#0B0410"
+    },
+    "shlokHindi": "कस्तूरीतिलकं ललाटपटले वक्षःस्थले कौस्तुभं नासाग्रे वरमौक्तिकं करतले वेणुं करे कङ्कणम्॥",
+    "shlokHinglish": "Divine Amrit Raas: Glowing lotus diya, sacred flute and ethereal cosmic ribbons.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_04",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/04.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_04.jpg",
+    "tab": "aesthetic",
+    "category": "shiv",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#00E5FF",
+      "accent": "#E040FB",
+      "background": "#04050E"
+    },
+    "shlokHindi": "कर्पूरगौरं करुणावतारं संसारसारम् भुजगेन्द्रहारम्। सदावसन्तं हृदयारविन्दे भवं भवानीसहितं नमामि॥",
+    "shlokHinglish": "Shiv Shakti Cosmic Glow: Sacred Shivling, celestial Trishul and radiant neon aura.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_05",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/05.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_05.jpg",
+    "tab": "classic",
+    "category": "lakshmi",
+    "theme": "temple",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#FF4081",
+      "background": "#050616"
+    },
+    "shlokHindi": "शान्ताकारं भुजगशयनं पद्मनाभं सुरेशं विश्वाधारं गगनसदृशं मेघवर्णं शुभाङ्गम्। लक्ष्मीकान्तं कमलनयनं योगिभिर्ध्यानगम्यम्॥",
+    "shlokHinglish": "Lakshmi Narayan Divine Blessings: Sheshnaag protection, golden wealth kalash and traditional splendor.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_06",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/06.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_06.jpg",
+    "tab": "aesthetic",
+    "category": "durga",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#FF1744",
+      "background": "#050B14"
+    },
+    "shlokHindi": "अयि गिरिनन्दिनि नन्दितमेदिनि विश्वविनोदिनि नन्दसुते। गिरिवरविन्ध्यशिरोऽधिनिवासिनि विष्णुविलासिनि जिष्णुनुते॥",
+    "shlokHinglish": "Aigiri Nandini Mahishasuramardini: Golden typography, divine lion and radiant Trishul.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_07",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/07.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_07.jpg",
+    "tab": "aesthetic",
+    "category": "durga",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFAB00",
+      "accent": "#D50000",
+      "background": "#060913"
+    },
+    "shlokHindi": "सर्वमङ्गलमाङ्गल्ये शिवे सर्वार्थसाधिके। शरण्ये त्र्यम्बके गौरि नारायणि नमोऽस्तु ते॥",
+    "shlokHinglish": "Jai Ambe Maa: Radiant golden calligraphy with Trishul and sacred lotus flame.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_08",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/08.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_08.jpg",
+    "tab": "aesthetic",
+    "category": "ganesh",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#FF1744",
+      "background": "#060B18"
+    },
+    "shlokHindi": "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ। निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥",
+    "shlokHinglish": "Vakratunda Mahakaya Minimalist: Glowing gold calligraphy with red hibiscus flower.",
+    "isFeatured": false,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_09",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/09.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_09.jpg",
+    "tab": "classic",
+    "category": "ganesh",
+    "theme": "temple",
+    "themeColors": {
+      "primary": "#FFA000",
+      "accent": "#FF4081",
+      "background": "#090E1A"
+    },
+    "shlokHindi": "गजाननं भूतगणादिसेवितं कपित्थजम्बूफलचारुभक्षणम्। उमासुतं शोकविनाशकारकं नमामि विघ्नेश्वरपादपङ्कजम्॥",
+    "shlokHinglish": "Vakratunda Mahakaya Divine: Full golden Ganesha seated on sacred lotus with Mushak and modaks.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_10",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/10.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_10.jpg",
+    "tab": "aesthetic",
+    "category": "other",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FF9100",
+      "accent": "#FFD700",
+      "background": "#0A1024"
+    },
+    "shlokHindi": "ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात्॥",
+    "shlokHinglish": "Maha Gayatri Mantra: Sacred solar aura over sunrise river ghat and lotus flame.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_11",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/11.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_11.jpg",
+    "tab": "aesthetic",
+    "category": "ram",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#FF6D00",
+      "background": "#040B1A"
+    },
+    "shlokHindi": "रामो राजमणिः सदा विजयते रामं रमेशं भजे। रामेणाभिहता निशाचरचमू रामाय तस्मै नमः॥",
+    "shlokHinglish": "Jai Shree Ram Golden Bow: Vibrant golden typography with Kodanda arrow.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_12",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/12.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_12.jpg",
+    "tab": "aesthetic",
+    "category": "shiv",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#FF1744",
+      "background": "#050C19"
+    },
+    "shlokHindi": "ॐ नमः शिवाय। हर हर महादेव शम्भो काशी विश्वनाथ गंगे॥",
+    "shlokHinglish": "Har Har Mahadev Trishul: Sacred Tripund and golden Trishul Damru typography.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_13",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/13.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_13.jpg",
+    "tab": "aesthetic",
+    "category": "shiv",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#00B0FF",
+      "accent": "#FFD700",
+      "background": "#040916"
+    },
+    "shlokHindi": "ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम्। उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय मामृतात्॥",
+    "shlokHinglish": "Har Har Mahadev Silhouette: Cosmic crescent moon, sacred Shivling and divine profile.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_14",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/14.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_14.jpg",
+    "tab": "aesthetic",
+    "category": "ram",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FF9100",
+      "accent": "#FFD700",
+      "background": "#050C1B"
+    },
+    "shlokHindi": "श्रीरामचन्द्र कृपालु भजु मन हरण भवभय दारुणम्। नवकञ्ज लोचन कञ्ज मुख कर कञ्ज पद कञ्जारुणम्॥",
+    "shlokHinglish": "Sita Ram Archer Silhouette: Golden rim light, Kodanda bow and saffron flag.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_15",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/15.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_15.jpg",
+    "tab": "aesthetic",
+    "category": "hanuman",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#FF3D00",
+      "background": "#050C1A"
+    },
+    "shlokHindi": "अतुलितबलधामं हेमशैलाभदेहं दनुजवनकृशानुं ज्ञानिनामग्रगण्यम्। सकलगुणनिधानं वानराणामधीशं रघुपतिप्रियभक्तं वातजातं नमामि॥",
+    "shlokHinglish": "Jai Bajrangbali Golden Gada: Auspicious tilak and mighty divine mace typography.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_16",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/16.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_16.jpg",
+    "tab": "aesthetic",
+    "category": "hanuman",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FF6D00",
+      "accent": "#FFAB00",
+      "background": "#000000"
+    },
+    "shlokHindi": "मनोजवं मारुततुल्यवेगं जितेन्द्रियं बुद्धिमतां वरिष्ठम्। वातात्मजं वानरयूथमुख्यं श्रीरामदूतं शरणं प्रपद्ये॥",
+    "shlokHinglish": "Veer Hanuman Saffron Silhouette: Bold minimalist devotional portrait.",
+    "isFeatured": false,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_17",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/17.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_17.jpg",
+    "tab": "aesthetic",
+    "category": "krishna",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#2979FF",
+      "background": "#050C1E"
+    },
+    "shlokHindi": "श्रीराधा वृन्दावनेश्वरी कृष्णप्रिया मनोरमा। श्रीकृष्णसङ्गिनि देवी सर्वकामप्रदायिनी॥",
+    "shlokHinglish": "Radhe Krishna Golden Bansuri: Peacock feather and blue silk draped flute.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_18",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/18.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_18.jpg",
+    "tab": "aesthetic",
+    "category": "krishna",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#00E5FF",
+      "accent": "#FFD700",
+      "background": "#03040C"
+    },
+    "shlokHindi": "फुल्लेन्दीवरकान्तिमेलनकलाकुञ्जे वसन्तं सदा, राधाप्रेमसुधारसेन मधुरं गोविन्दमानन्ददम्॥",
+    "shlokHinglish": "Radha Krishna Neon Contour: Golden-blue glowing silhouettes with sacred bansuri.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_19",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/19.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_19.jpg",
+    "tab": "aesthetic",
+    "category": "krishna",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#2979FF",
+      "accent": "#FFD700",
+      "background": "#030716"
+    },
+    "shlokHindi": "अधरं मधुरं वदनं मधुरं नयनं मधुरं हसितं मधुरम्। हृदयं मधुरं गमनं मधुरं मधुराधिपतेरखिलं मधुरम्॥",
+    "shlokHinglish": "Midnight Moonlight Vrindavan: Blue celestial silhouettes under glowing full moon.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_20",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/20.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_20.jpg",
+    "tab": "classic",
+    "category": "hanuman",
+    "theme": "temple",
+    "themeColors": {
+      "primary": "#FF9100",
+      "accent": "#FFD700",
+      "background": "#0E0703"
+    },
+    "shlokHindi": "महाबीर बिक्रम बजरंगी। कुमति निवार सुमति के संगी॥",
+    "shlokHinglish": "Fierce Golden Warrior: Cinematic traditional portrait of Bajrangbali with glowing mace.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_21",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/21.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_21.jpg",
+    "tab": "aesthetic",
+    "category": "ram",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#FF3D00",
+      "background": "#050B1B"
+    },
+    "shlokHindi": "मङ्गल भवन अमङ्गल हारी। द्रवहु सुदसरथ अजिर बिहारी॥",
+    "shlokHinglish": "Ayodhya Sunrise Kodanda: Lord Ram silhouette over glowing Ram Mandir.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_22",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/22.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_22.jpg",
+    "tab": "aesthetic",
+    "category": "hanuman",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FF6D00",
+      "accent": "#FFD700",
+      "background": "#0B0502"
+    },
+    "shlokHindi": "लाल देह लाली लसे, अरु धरि लाल लंगूर। वज्र देह दानव दलन, जय जय जय कपिसूर॥",
+    "shlokHinglish": "Fiery Devotion Profile: Glowing golden mane and fiery gaze of Mahaveer.",
+    "isFeatured": false,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_23",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/23.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_23.jpg",
+    "tab": "aesthetic",
+    "category": "hanuman",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FF9100",
+      "accent": "#FFD700",
+      "background": "#000000"
+    },
+    "shlokHindi": "रामदूत अतुलित बलधामा। अंजनिपुत्र पवनसुत नामा॥",
+    "shlokHinglish": "Chest Glowing Ram: Mighty Hanuman with divine halo and golden Gada.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_24",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/24.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_24.jpg",
+    "tab": "classic",
+    "category": "ram",
+    "theme": "temple",
+    "themeColors": {
+      "primary": "#FFAB00",
+      "accent": "#FF3D00",
+      "background": "#0F0B18"
+    },
+    "shlokHindi": "रामाय रामभद्राय रामचन्द्राय वेधसे। रघुनाथाय नाथाय सीतायाः पतये नमः॥",
+    "shlokHinglish": "Maryada Purushottam Ram: Grand royal portrait with Kodanda bow in Ayodhya.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_25",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/25.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_25.jpg",
+    "tab": "aesthetic",
+    "category": "ram",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#FF6D00",
+      "background": "#040816"
+    },
+    "shlokHindi": "धर्मो रक्षति रक्षितः। रामो विग्रहवान् धर्मः साधुः सत्यपराक्रमः॥",
+    "shlokHinglish": "Moonlit Ayodhya Hill: Lord Ram silhouette under full moon with sacred temple.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_26",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/26.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_26.jpg",
+    "tab": "aesthetic",
+    "category": "durga",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#00B0FF",
+      "accent": "#FF1744",
+      "background": "#020713"
+    },
+    "shlokHindi": "या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता। नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥",
+    "shlokHinglish": "Moonlit Celestial Durga: Majestic lion rider silhouette against giant full moon.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_27",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/27.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_27.jpg",
+    "tab": "aesthetic",
+    "category": "ganesh",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#00E5FF",
+      "background": "#030612"
+    },
+    "shlokHindi": "एकदन्ताय विद्महे वक्रतुण्डाय धीमहि। तन्नो दन्तिः प्रचोदयात्॥",
+    "shlokHinglish": "Neon Contour Ganesha: Dual-tone golden-cyan line art with blessing hand.",
+    "isFeatured": false,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_28",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/28.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_28.jpg",
+    "tab": "classic",
+    "category": "durga",
+    "theme": "temple",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#D50000",
+      "background": "#0C0712"
+    },
+    "shlokHindi": "दुर्गे स्मृता हरसि भीतिमशेषजन्तोः स्वस्थैः स्मृता मतिमतीव शुभां ददासि॥",
+    "shlokHinglish": "Mahishasuramardini Supreme: Hyper-realistic celestial warrior goddess with royal lion.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_29",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/29.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_29.jpg",
+    "tab": "classic",
+    "category": "ganesh",
+    "theme": "temple",
+    "themeColors": {
+      "primary": "#FFC107",
+      "accent": "#FF4081",
+      "background": "#060A18"
+    },
+    "shlokHindi": "प्रणम्य शिरसा देवं गौरीपुत्रं विनायकम्। भक्तावासं स्मरेन्नित्यमायुःकामार्थसिद्धये॥",
+    "shlokHinglish": "Bal Ganesha Lotus Throne: Traditional sacred diya, mushak companion and hibiscus blossoms.",
+    "isFeatured": false,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_30",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/30.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_30.jpg",
+    "tab": "aesthetic",
+    "category": "ganesh",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#FF1744",
+      "background": "#040816"
+    },
+    "shlokHindi": "जय गणेश जय गणेश जय गणेश देवा। माता जाकी पार्वती पिता महादेवा॥",
+    "shlokHinglish": "Golden Diya Vinayaka: Flowing golden calligraphy with glowing oil lamp.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_31",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/31.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_31.jpg",
+    "tab": "aesthetic",
+    "category": "hanuman",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#2979FF",
+      "background": "#030716"
+    },
+    "shlokHindi": "संकट कटै मिटै सब पीरा। जो सुमिरै हनुमत बलबीरा॥",
+    "shlokHinglish": "Celestial Contemplation: Dual-tone sapphire and gold devotion profile.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_32",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/32.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_32.jpg",
+    "tab": "aesthetic",
+    "category": "hanuman",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#FF3D00",
+      "background": "#040816"
+    },
+    "shlokHindi": "भूत पिशाच निकट नहिं आवै। महाबीर जब नाम सुनावै॥",
+    "shlokHinglish": "Jai Shree Hanuman Saffron Flag: Radiant typography with golden mace and dhwaja.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_33",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/33.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_33.jpg",
+    "tab": "classic",
+    "category": "hanuman",
+    "theme": "temple",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#00E5FF",
+      "background": "#060714"
+    },
+    "shlokHindi": "नासे रोग हरै सब पीरा। जपत निरन्तर हनुमत बीरा॥",
+    "shlokHinglish": "King of Devotion: Majestic crowned warrior with golden mace and ruby jewels.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_34",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/34.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_34.jpg",
+    "tab": "classic",
+    "category": "saraswati",
+    "theme": "temple",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#FFFFFF",
+      "background": "#050918"
+    },
+    "shlokHindi": "या कुन्देन्दुतुषारहारधवला या शुभ्रवस्त्रावृता। या वीणावरदण्डमण्डितकरा या श्वेतपद्मासना॥",
+    "shlokHinglish": "Goddess Saraswati Swan & Veena: Radiant wisdom on pristine white lotus.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_35",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/35.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_35.jpg",
+    "tab": "classic",
+    "category": "lakshmi",
+    "theme": "temple",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#FF4081",
+      "background": "#07040D"
+    },
+    "shlokHindi": "ॐ श्रीं ह्रीं श्रीं कमले कमलालये प्रसीद प्रसीद श्रीं ह्रीं श्रीं ॐ महालक्ष्म्यै नमः॥",
+    "shlokHinglish": "Maha Lakshmi Golden Shower: Sacred pink lotus with boundless prosperity.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_36",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/36.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_36.jpg",
+    "tab": "aesthetic",
+    "category": "hanuman",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#D50000",
+      "background": "#030716"
+    },
+    "shlokHindi": "पवनतनय संकट हरन मंगल मूरति रूप। राम लखन सीता सहित हृदय बसहु सुर भूप॥",
+    "shlokHinglish": "Sacred Gada on Rock: Crown, rudraksha and Jai Shree Ram crimson flag.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_37",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/37.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_37.jpg",
+    "tab": "aesthetic",
+    "category": "shiv",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#00E5FF",
+      "accent": "#FFD700",
+      "background": "#030614"
+    },
+    "shlokHindi": "नमामीशमीशान निर्वाणरूपं विभुं व्यापकं ब्रह्मवेदस्वरूपम्। निजं निर्गुणं निर्विकल्पं निरीहं चिदाकाशमाकाशवासं भजेऽहम्॥",
+    "shlokHinglish": "Trishul & Shivling Radiance: Crescent moon, Damru and sacred bilva blossoms.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_38",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/38.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_38.jpg",
+    "tab": "aesthetic",
+    "category": "shiv",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#00E5FF",
+      "accent": "#FFD700",
+      "background": "#030614"
+    },
+    "shlokHindi": "ध्यायेन्नित्यं महेशं रजतगिरिनिभं चारुचन्द्रावतंसं रत्नाकल्पोज्ज्वलाङ्गं परशुमृगवराभीतिहस्तं प्रसन्नम्॥",
+    "shlokHinglish": "Dhyan Mahadev Cosmic Locks: Glowing Om necklace, crescent moon and Vasuki serpent.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_39",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/39.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_39.jpg",
+    "tab": "aesthetic",
+    "category": "krishna",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#2979FF",
+      "background": "#030615"
+    },
+    "shlokHindi": "बर्हापीडं नटवरवपुः कर्णयोः कर्णिकारं बिभ्रद्वासः कनककपिशं वैजयन्तीं च मालाम्॥",
+    "shlokHinglish": "Krishna Flute Starlight: Sapphire aura with glowing peacock feather and yellow scarf.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_40",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/40.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_40.jpg",
+    "tab": "aesthetic",
+    "category": "krishna",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#00B0FF",
+      "accent": "#FFD700",
+      "background": "#030616"
+    },
+    "shlokHindi": "वंशी विभूषितकरात् नवनीरदाभात् पीताम्बरात् अरुणबिम्बफलाधरोष्ठात्। पूर्णेन्दुसुन्दरमुखात् अरविन्दनेत्रात् कृष्णात् परं किमपि तत्त्वमहं न जाने॥",
+    "shlokHinglish": "Moonlit Bansuri Krishna: Profile under giant radiant moon with ethereal clouds.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
+    "id": "cosmic_41",
+    "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/41.jpg",
+    "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/cosmic/thumb_41.jpg",
+    "tab": "aesthetic",
+    "category": "krishna",
+    "theme": "cosmic",
+    "themeColors": {
+      "primary": "#FFD700",
+      "accent": "#00E5FF",
+      "background": "#030718"
+    },
+    "shlokHindi": "मूकं करोति वाचालं पङ्गुं लङ्घयते गिरिम्। यत्कृपा तमहं वन्दे परमानन्दमाधवम्॥",
+    "shlokHinglish": "Sacred Bansuri on Silk: White jasmine flowers, peacock feather and Krishna silhouette.",
+    "isFeatured": true,
+    "createdAt": "2026-11-04T00:00:00Z"
+  },
+  {
     "id": "sw1",
     "imageUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/saraswati/01.png",
     "thumbnailUrl": "https://raw.githubusercontent.com/ashish986/DivineWall/main/wallpapers/saraswati/thumb_01.png",
